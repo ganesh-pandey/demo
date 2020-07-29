@@ -3,7 +3,7 @@ package first;
 public class methodDemo {
     public static void main(String[] args) {
         System.out.println("method demo");
-        //creating a object to call method,as displayis in this class
+        //creating a object to call method,as display in this class
         //but it is non static method so will be called by object
         methodDemo print = new methodDemo();
         print.display();
